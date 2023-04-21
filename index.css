@@ -1,0 +1,81 @@
+/* Select all CSS */
+
+/* Header CSS */
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+   border: 1px solid black;
+}
+
+
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items > ul > li{
+   padding: 10px;
+}
+.logo{
+    width: 100px;
+    height: 100%;
+}
+.card{
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+.card>img{
+    width: 100%;
+}
+.restaurant-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* ........................................... */
+.shimmer-card{
+	/* width: 200px;
+	
+	
+	margin: 20px; */
+    width: 200px;
+    height: 270px;
+    background-color:lightgrey;
+    
+    margin: 10px;
+    padding: 10px;
+}
+/* ..............Error page css..................... */
+.error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .error-title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .error-subtitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .error-image {
+    width: 50%;
+    max-width: 400px;
+    margin-bottom: 2rem;
+  }
+  
+/* ................................menu css */
+.menu{
+  display: flex;
+}
